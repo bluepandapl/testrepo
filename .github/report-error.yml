@@ -1,4 +1,4 @@
-invalid: [here]: ok
+# invalid: [here]: ok
 
 readConfig:
   title: 'Error while reading welcome.yml'
