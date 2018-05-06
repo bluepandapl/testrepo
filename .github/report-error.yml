@@ -4,7 +4,7 @@ readConfig:
     An error occurred while trying to parse `welcome.yml`.
 
     ```
-    {{stackTrace}}
+    {{errorName}}: {{errorMessage}}
     ```
 
     Check the syntax of `.github/welcome.yml` and make sure it's valid. For more information or questions, see [probot/stale](https://github.com/probot/stale)
