@@ -1,0 +1,10 @@
+readConfig:
+  title: 'Error while reading welcome.yml'
+  body: |
+    An error occurred while trying to parse `welcome.yml`.
+
+    ```
+    {{stackTrace}}
+    ```
+
+    Check the syntax of `.github/welcome.yml` and make sure it's valid. For more information or questions, see [probot/stale](https://github.com/probot/stale)
